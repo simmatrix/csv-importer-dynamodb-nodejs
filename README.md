@@ -3,10 +3,10 @@
 ## Setup
 
 - Make sure to have created your table (collection) in DynamoDB AWS Management Console
-- Update your collection name in `model.js`
+- Update your collection name in `model.js` (Rename `MyOwnCollectionName` to your own collection's name)
 - Key in your AWS credentials in `config.js`
 - Update the file `data.csv` with the data you wish to import
-- Run `npm install`
+- Run `npm install` (FYI, the Node version I used to build this is v10.11.0)
 - Run `babel-node index.js`
 
 ## Common Issues

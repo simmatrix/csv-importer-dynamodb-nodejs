@@ -1,8 +1,8 @@
 import dynamoose from 'dynamoose';
 
-const TestCollection = dynamoose.model('TestCollection', {
+const TargetedCollection = dynamoose.model('MyOwnCollectionName', {
   id: String,
   code: String
 });
 
-export default TestCollection;
+export default TargetedCollection;
